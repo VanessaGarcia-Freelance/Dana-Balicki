@@ -1,0 +1,68 @@
+/*
+ Theme Name:   Dana Balicki Theme
+ Theme URI:   
+ Description:  Total Theme Child Theme
+ Author:       Vanessa Garcia
+ Author URI:   
+ Template:     Total
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  Dana-Balicki
+*/
+
+
+// Header
+header {
+    position: absolute;
+    z-index: 500;
+}
+
+// /* Style Option 2 */
+// #site-header {
+//     position: absolute;
+//     z-index: 1000;
+//     width: 100%;
+//     color: white;
+// }
+// #site-navigation-wrap {
+//     // background: rgba(0,0,0,0.4);
+// }
+// .primary-text {
+//     position: absolute;
+//     bottom: 40px;
+//     color: white;
+//     width: 100%;
+// }
+//////////////////////////
+
+.navbar-style-four {
+        border-bottom: none;
+}
+
+#site-logo {
+    // background-color: red!important;
+    width: 15% !important;
+}
+ 
+.vc_custom_1459215732882.primary-photo {
+    background-position: center top!important;
+}
+.primary-text h3 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 50%;
+    margin: 0 auto;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+// Shopping Cart 
+.woocommerce a.button, .add_to_cart_button {
+    background-color: #1f6db6;
+}
+.woocommerce a.button, .add_to_cart_button:hover {
+    backgrounc-color: #ff48ac;
+}
